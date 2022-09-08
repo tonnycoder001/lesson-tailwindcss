@@ -5,9 +5,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css"
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css"
   },
   "devDependencies": {
     "daisyui": "^2.25.0",
